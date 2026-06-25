@@ -1,0 +1,295 @@
+/* body
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+#value{
+    align-items: center;
+    display: block;
+    font-size: 4em;
+}
+
+#contianer
+{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons
+{
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: yellow;
+    border-radius: 20%;
+    border: 2px solid black;   
+}
+.buttons:hover
+{
+    background-color: rgb(228, 228, 1);
+    color: white;
+} */
+
+
+/* 
+#submit {
+    background-color: yellow;
+    font-size: large;
+} */
+
+/* Temperature conversion program  */
+
+/* body
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+h1
+{
+    color: rgb(255, 140, 0);
+}
+
+form
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    max-width: 350px;   
+}
+
+#textBox{
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+label{
+    margin-bottom: 10px;
+color: black;
+font-weight: bold;
+}
+
+#submit{
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: darkorange;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: green;
+}  */
+
+/* ⭐ Digital Clock program 🕐 */
+/* 
+body{
+    background-image: url(background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    background-color: hsla(0, 0%, 100%, 0.1);
+
+} */
+
+/*  *********************** ⭐ STOP WATCH 🕐  ***************************************** */
+/* STOP WATCH 🕐 */
+
+/* body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 90%);
+}
+
+#myH1{
+    font-size: 4rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, .75);
+}
+
+#controls{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    min-width: 140px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 6px 12px hsla(0, 0%, 0%, .18);
+    transition: background-color .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+
+#controls button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 9px 16px hsla(0, 0%, 0%, .24);
+}
+
+#controls button:active{
+    transform: translateY(1px);
+    box-shadow: 0 4px 8px hsla(0, 0%, 0%, .2);
+}
+
+#startBtn{
+    background-color: hsl(115, 100%, 40%);
+}
+
+#startBtn:hover{
+    background-color: hsl(115, 100%, 34%);
+}
+
+#stopBtn{
+    background-color: hsl(0, 85%, 52%);
+}
+
+#stopBtn:hover{
+    background-color: hsl(0, 85%, 44%);
+}
+
+#resetBtn{
+    background-color: hsl(210, 85%, 48%);
+}
+
+#resetBtn:hover{
+    background-color: hsl(210, 85%, 40%);
+}
+ */
+
+
+/* *********************** ⭐ Calculator program🕐  ***************************************** */
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+#Calculator{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn{
+    background-color: hsl(35, 100%, 55%);
+}
+
+.operator-btn:hover{
+    background-color: hsl(35, 100%, 75%);
+}
+
+.operator-btn:hover{
+    background-color: hsl(35, 100%, 60%);
+}
