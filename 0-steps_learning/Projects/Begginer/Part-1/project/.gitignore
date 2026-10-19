@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+# Logs
+*.log
+# Environment variables
+.env
+# Runtime artifacts and stores
+dist/
+build/
+.coverage
+# IDE specific
+.vscode/
+.idea/
+# OS specific
+.DS_Store
+*.suo
+*.user
+*.sln.docstates
+.vs/
